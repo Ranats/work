@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "RevivalOfTweetdeck",
+  "version": "0.1",
+  "web_accessible_resources":["revivalDeck.css"],
+  "content_scripts":[
+    {
+      "matches": [
+        "https://tweetdeck.twitter.com/"
+      ],
+      "css": [
+        "revivalDeck.css"
+      ],
+      "js": [
+        "jquery-1.7.2.min.js","revivalDeck.js"
+      ],
+      "run_at":"document_end"
+    }],
+//  "background":{
+//    "scripts":["jquery-1.7.2.min.js","revivalDeck.js"],
+//    "persistent":false
+//  },
+  "icons":{ }
+}
