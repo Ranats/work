@@ -1,13 +1,15 @@
 /* to hide the icons */
 footer.tweet-footer ul{
     visibility: hidden;
+    margin-left:40%;
+    margin-right:10%
 }
 footer.tweet-footer:hover ul{
     visibility: visible;
 }
 
+
 li.tweet-action-item{
-    float: right !important;
 }
 
 .link-complex-target{
